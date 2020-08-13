@@ -20,6 +20,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
+		driver.navigate().to ("")
 		String baseURL = "http://tek-school.com/retail/";
 		driver.get(baseURL);
 		// what is difference between local variable and global variable?
